@@ -34,20 +34,20 @@ def load_best_solutions():
     """Загружает лучшие решения для задачи dc_motor_pid из результатов эксперимента"""
     results_file = "experiment_results/results.json"
     if not os.path.exists(results_file):
-        print(f"❌ Файл {results_file} не найден. Сначала запустите experiment.py")
+        print(f" Файл {results_file} не найден. Сначала запустите experiment.py")
         return None
     
     with open(results_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     if 'dc_motor_pid' not in data:
-        print("❌ Данные для задачи dc_motor_pid не найдены")
+        print(" Данные для задачи dc_motor_pid не найдены")
         return None
     
     motor_data = data['dc_motor_pid']
     best_solutions = {}
     
-    print("\n📊 Загрузка лучших решений для каждого алгоритма:")
+    print("\n Загрузка лучших решений для каждого алгоритма:")
     print("-" * 60)
     
     for algo_name, algo_data in motor_data.items():
@@ -70,7 +70,7 @@ def load_best_solutions():
 def plot_step_responses(best_solutions):
     """Строит графики переходных процессов для всех алгоритмов"""
     if not best_solutions:
-        print("❌ Нет данных для построения графиков")
+        print(" Нет данных для построения графиков")
         return None
     
     t = np.linspace(0, 5, 1000)  # теперь 5 секунд, согласовано с objective
@@ -127,7 +127,7 @@ def plot_step_responses(best_solutions):
     plt.subplots_adjust(bottom=0.25)
     output_file = "step_response_comparison.png"
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
-    print(f"\n✅ График переходных процессов сохранен: {output_file}")
+    print(f"\n График переходных процессов сохранен: {output_file}")
     plt.show()
     return all_metrics
 
@@ -154,9 +154,9 @@ def create_metrics_table(metrics):
     df = pd.DataFrame(data).sort_values('Fitness')
     output_file = "step_response_metrics.csv"
     df.to_csv(output_file, index=False, float_format='%.6f')
-    print(f"✅ Метрики сохранены: {output_file}")
+    print(f" Метрики сохранены: {output_file}")
     print("\n" + "="*80)
-    print("📊 МЕТРИКИ ПЕРЕХОДНЫХ ПРОЦЕССОВ")
+    print(" МЕТРИКИ ПЕРЕХОДНЫХ ПРОЦЕССОВ")
     print("="*80)
     print(df.to_string(index=False))
     print("="*80)
@@ -165,16 +165,16 @@ def create_metrics_table(metrics):
 
 def main():
     print("=" * 80)
-    print("🔄 ПОСТРОЕНИЕ ГРАФИКОВ ПЕРЕХОДНЫХ ПРОЦЕССОВ")
+    print(" ПОСТРОЕНИЕ ГРАФИКОВ ПЕРЕХОДНЫХ ПРОЦЕССОВ")
     print("=" * 80)
     
     best_solutions = load_best_solutions()
     if not best_solutions:
-        print("\n❌ Не удалось загрузить решения. Убедитесь, что эксперименты выполнены.")
+        print("\n Не удалось загрузить решения. Убедитесь, что эксперименты выполнены.")
         print("   Сначала запустите: python experiment.py")
         return
     
-    print("\n📈 Построение графиков...")
+    print("\n Построение графиков...")
     metrics = plot_step_responses(best_solutions)
     if metrics:
         create_metrics_table(metrics)
