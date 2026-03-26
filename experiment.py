@@ -388,7 +388,7 @@ class ComparativeExperiment:
             
             problem_info = get_problem_info(problem_name)
             if problem_info is None:
-                print(f"❌ Ошибка: задача '{problem_name}' не найдена")
+                print(f" Ошибка: задача '{problem_name}' не найдена")
                 continue
             
             self.results[problem_name] = {}
@@ -453,7 +453,7 @@ class ComparativeExperiment:
                     acceptable_rate = len(acceptable_runs) / len(all_metrics) * 100
                     
                     # Вывод
-                    status = "✅" if acceptable_rate > 50 else "⚠️" if feasible_rate > 0 else "❌"
+                    status = "" if acceptable_rate > 50 else "" if feasible_rate > 0 else ""
                     print(f"  {status} {algorithm_name}: "
                           f"Фитнес = {mean_fitness:.4e} ± {std_fitness:.4e}, "
                           f"Время = {mean_time:.3f} ± {std_time:.3f} с, "
@@ -479,7 +479,7 @@ class ComparativeExperiment:
                     # Сохраняем истории сходимости для всех запусков
                     self.convergence_data[problem_name][algorithm_name] = convergence_histories
                 else:
-                    print(f"  ❌ {algorithm_name}: Нет допустимых запусков")
+                    print(f"   {algorithm_name}: Нет допустимых запусков")
                     self.results[problem_name][algorithm_name] = {
                         'error': 'Нет допустимых запусков',
                         'all_runs': all_metrics
