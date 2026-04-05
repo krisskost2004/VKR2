@@ -4,7 +4,6 @@
 """
 
 import numpy as np
-import math
 import time
 from typing import Callable, Tuple, List, Dict, Any
 
@@ -112,6 +111,9 @@ class PSO(BaseOptimizer):
         self.best_fitness = pbest_fitness[gbest_idx]
         self.best_solution = pbest_positions[gbest_idx].copy()
         
+        # Сохраняем начальное лучшее значение в историю
+        self.history.append(self.best_fitness)
+        
         # Основной цикл
         for iteration in range(self.max_iter):
             r1 = np.random.rand(self.pop_size, self.dim)
@@ -187,6 +189,9 @@ class GWO(BaseOptimizer):
         
         self.best_solution = alpha_pos.copy()
         self.best_fitness = alpha_score
+        
+        # Сохраняем начальное лучшее значение в историю
+        self.history.append(self.best_fitness)
         
         # Основной цикл
         for iteration in range(self.max_iter):
@@ -280,6 +285,9 @@ class WOA(BaseOptimizer):
         self.best_fitness = fitness[best_idx]
         self.best_solution = best_position.copy()
         
+        # Сохраняем начальное лучшее значение в историю
+        self.history.append(self.best_fitness)
+        
         # Основной цикл
         for iteration in range(self.max_iter):
             a = 2.0 - iteration * (2.0 / self.max_iter)  # a уменьшается от 2 до 0
@@ -363,6 +371,9 @@ class HHO(BaseOptimizer):
         
         self.best_solution = rabbit_pos.copy()
         self.best_fitness = rabbit_fitness
+        
+        # Сохраняем начальное лучшее значение в историю
+        self.history.append(self.best_fitness)
         
         # Основной цикл
         for iteration in range(self.max_iter):
@@ -448,6 +459,9 @@ class SMA(BaseOptimizer):
         best_position = positions[best_idx].copy()
         self.best_fitness = fitness[best_idx]
         self.best_solution = best_position.copy()
+        
+        # Сохраняем начальное лучшее значение в историю
+        self.history.append(self.best_fitness)
         
         # Основной цикл
         for iteration in range(self.max_iter):

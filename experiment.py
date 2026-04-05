@@ -4,7 +4,8 @@
 Теперь поддерживает:
     - Два уровня успешности: Feasible и Acceptable.
     - Агрегирование истории сходимости по всем запускам.
-    - Метрики по числу вычислений функции (FE до порога, J@FE).
+    - Метрики по числу вычислений функции (FE до порога, J@FE) с интерполяцией.
+    - Запись результатов для алгоритмов без допустимых запусков (Feasible_Rate_% = 0).
 """
 
 import numpy as np
@@ -15,9 +16,10 @@ from datetime import datetime
 import os
 import sys
 from typing import Dict, List, Tuple, Any
+import scipy.integrate  # для odeint в evaluate_solution
 
 from algorithms import PSO, GWO, WOA, HHO, SMA
-from problems import get_problem_info
+from problems import get_problem_info, _rng_seed
 from simulation import simulate_dc_motor_pid, compute_step_metrics
 
 
@@ -107,9 +109,8 @@ class ComparativeExperiment:
                 return A_closed.dot(x)
             x0 = [0, 0, 0.1, 0]
             t_span = np.linspace(0, 5, 500)
-            from scipy.integrate import odeint
-            x = odeint(dyn, x0, t_span)
-            # Приемлемость: максимальное отклонение угла < 0.05 рад после переходного процесса
+            x = scipy.integrate.odeint(dyn, x0, t_span)
+            # Приемлемость: максимальное отклонение угла < 0.2 рад и финальное отклонение < 0.05
             final_angle = np.abs(x[-1, 2])
             max_angle = np.max(np.abs(x[:, 2]))
             acceptable = (final_angle < 0.05) and (max_angle < 0.2)
@@ -239,6 +240,11 @@ class ComparativeExperiment:
             bounds = problem_info['bounds']
             objective_func = problem_info['objective_func']
             
+            # Устанавливаем глобальный seed для задачи уровня жидкости (чтобы шум был фиксирован)
+            if problem_name == 'liquid_level':
+                import problems
+                problems._rng_seed = seed
+            
             if algorithm_name == 'PSO':
                 algorithm = algorithm_class(
                     objective_func=objective_func,
@@ -277,40 +283,55 @@ class ComparativeExperiment:
             # Пост-проверка решения
             eval_result = self.evaluate_solution(problem_name, best_solution)
             
-            # Вычисляем FE до порога (если порог достигнут)
+            # Вычисляем FE до порога (если порог достигнут) с использованием интерполяции
             target_fitness = 1e-3  # порог для всех задач
             fe_to_target = None
             if 'convergence_history' in metrics and metrics['convergence_history']:
-                hist = metrics['convergence_history']
-                for idx, val in enumerate(hist):
+                hist = metrics['convergence_history']  # список лучших фитнесов после каждой оценки (включая начальную)
+                # FE для каждого элемента history: (i+1)*pop_size, где i начинается с 0
+                fe_points = np.array([self.pop_size * (i+1) for i in range(len(hist))])
+                # Если целевой фитнес достигнут, находим минимальное FE
+                for i, val in enumerate(hist):
                     if val <= target_fitness:
-                        # Вычисляем общее количество вычислений к этой итерации
-                        # Упрощённо: каждая итерация делает pop_size вычислений + начальные
-                        fe_at_idx = self.pop_size * (idx + 1)
-                        fe_to_target = fe_at_idx
+                        # Интерполируем между текущим и предыдущим, если нужно
+                        if i > 0 and val < target_fitness:
+                            # Линейная интерполяция между (fe_points[i-1], hist[i-1]) и (fe_points[i], hist[i])
+                            fe1, fe2 = fe_points[i-1], fe_points[i]
+                            v1, v2 = hist[i-1], hist[i]
+                            if v2 != v1:
+                                fe_to_target = fe1 + (target_fitness - v1) * (fe2 - fe1) / (v2 - v1)
+                            else:
+                                fe_to_target = fe1
+                        else:
+                            fe_to_target = fe_points[i]
                         break
             
-            # Значения на отсечках бюджета
+            # Значения на отсечках бюджета с линейной интерполяцией
             J_at_500 = None
             J_at_1000 = None
             J_at_2000 = None
             if 'convergence_history' in metrics and metrics['convergence_history']:
                 hist = metrics['convergence_history']
-                # Преобразуем историю в список FE
-                fe_values = [self.pop_size * (i+1) for i in range(len(hist))]
-                # Интерполяция
-                for target_fe, target_var in [(500, 'J_at_500'), (1000, 'J_at_1000'), (2000, 'J_at_2000')]:
-                    idx = np.searchsorted(fe_values, target_fe)
-                    if idx < len(hist):
-                        value = hist[idx]
-                    else:
-                        value = hist[-1] if hist else np.inf
-                    if target_fe == 500:
-                        J_at_500 = value
-                    elif target_fe == 1000:
-                        J_at_1000 = value
-                    elif target_fe == 2000:
-                        J_at_2000 = value
+                fe_points = np.array([self.pop_size * (i+1) for i in range(len(hist))])
+                
+                def interpolate_fitness(target_fe):
+                    if target_fe <= fe_points[0]:
+                        return hist[0]
+                    if target_fe >= fe_points[-1]:
+                        return hist[-1]
+                    idx = np.searchsorted(fe_points, target_fe)
+                    if idx == 0:
+                        return hist[0]
+                    # Линейная интерполяция между fe_points[idx-1] и fe_points[idx]
+                    fe1, fe2 = fe_points[idx-1], fe_points[idx]
+                    v1, v2 = hist[idx-1], hist[idx]
+                    if fe2 == fe1:
+                        return v1
+                    return v1 + (target_fe - fe1) * (v2 - v1) / (fe2 - fe1)
+                
+                J_at_500 = interpolate_fitness(500)
+                J_at_1000 = interpolate_fitness(1000)
+                J_at_2000 = interpolate_fitness(2000)
             
             metrics.update({
                 'algorithm': algorithm_name,
@@ -479,9 +500,22 @@ class ComparativeExperiment:
                     # Сохраняем истории сходимости для всех запусков
                     self.convergence_data[problem_name][algorithm_name] = convergence_histories
                 else:
+                    # Нет допустимых запусков – записываем нули и NaN
                     print(f"   {algorithm_name}: Нет допустимых запусков")
                     self.results[problem_name][algorithm_name] = {
-                        'error': 'Нет допустимых запусков',
+                        'best_fitness_mean': np.nan,
+                        'best_fitness_std': np.nan,
+                        'best_fitness_median': np.nan,
+                        'best_fitness_q25': np.nan,
+                        'best_fitness_q75': np.nan,
+                        'execution_time_mean': np.nan,
+                        'execution_time_std': np.nan,
+                        'feasible_rate': 0.0,
+                        'acceptable_rate': 0.0,
+                        'median_fe_to_target': np.nan,
+                        'median_J_at_500': np.nan,
+                        'median_J_at_1000': np.nan,
+                        'median_J_at_2000': np.nan,
                         'all_runs': all_metrics
                     }
                     self.convergence_data[problem_name][algorithm_name] = []
@@ -506,24 +540,26 @@ class ComparativeExperiment:
         summary_data = []
         for problem_name, algorithms in self.results.items():
             for algorithm_name, metrics in algorithms.items():
-                if 'error' not in metrics:
-                    summary_data.append({
-                        'Problem': self.problem_titles.get(problem_name, problem_name),
-                        'Algorithm': algorithm_name,
-                        'Best_Fitness_Mean': metrics['best_fitness_mean'],
-                        'Best_Fitness_Std': metrics['best_fitness_std'],
-                        'Best_Fitness_Median': metrics['best_fitness_median'],
-                        'Best_Fitness_Q25': metrics['best_fitness_q25'],
-                        'Best_Fitness_Q75': metrics['best_fitness_q75'],
-                        'Execution_Time_Mean': metrics['execution_time_mean'],
-                        'Execution_Time_Std': metrics['execution_time_std'],
-                        'Feasible_Rate_%': metrics['feasible_rate'],
-                        'Acceptable_Rate_%': metrics['acceptable_rate'],
-                        'Median_FE_to_Target': metrics['median_fe_to_target'],
-                        'Median_J@500': metrics['median_J_at_500'],
-                        'Median_J@1000': metrics['median_J_at_1000'],
-                        'Median_J@2000': metrics['median_J_at_2000']
-                    })
+                # Если есть 'error', пропускаем (но теперь у нас всегда есть метрики)
+                if 'error' in metrics:
+                    continue
+                summary_data.append({
+                    'Problem': self.problem_titles.get(problem_name, problem_name),
+                    'Algorithm': algorithm_name,
+                    'Best_Fitness_Mean': metrics.get('best_fitness_mean', np.nan),
+                    'Best_Fitness_Std': metrics.get('best_fitness_std', np.nan),
+                    'Best_Fitness_Median': metrics.get('best_fitness_median', np.nan),
+                    'Best_Fitness_Q25': metrics.get('best_fitness_q25', np.nan),
+                    'Best_Fitness_Q75': metrics.get('best_fitness_q75', np.nan),
+                    'Execution_Time_Mean': metrics.get('execution_time_mean', np.nan),
+                    'Execution_Time_Std': metrics.get('execution_time_std', np.nan),
+                    'Feasible_Rate_%': metrics.get('feasible_rate', 0.0),
+                    'Acceptable_Rate_%': metrics.get('acceptable_rate', 0.0),
+                    'Median_FE_to_Target': metrics.get('median_fe_to_target', np.nan),
+                    'Median_J@500': metrics.get('median_J_at_500', np.nan),
+                    'Median_J@1000': metrics.get('median_J_at_1000', np.nan),
+                    'Median_J@2000': metrics.get('median_J_at_2000', np.nan)
+                })
         
         if summary_data:
             summary_df = pd.DataFrame(summary_data)
@@ -577,7 +613,7 @@ class ComparativeExperiment:
                 best_algo = None
                 best_median = float('inf')
                 for algo_name, metrics in problem_results.items():
-                    if 'error' not in metrics:
+                    if 'error' not in metrics and not np.isnan(metrics.get('best_fitness_median', np.nan)):
                         if metrics['best_fitness_median'] < best_median:
                             best_median = metrics['best_fitness_median']
                             best_algo = algo_name

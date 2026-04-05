@@ -11,6 +11,9 @@ from simulation import simulate_dc_motor_pid, compute_step_metrics
 
 warnings.filterwarnings('ignore')
 
+# Глобальная переменная для фиксации seed шума в задаче уровня жидкости
+_rng_seed = None
+
 # ============================================================================
 # 1. ОПТИМИЗАЦИЯ ПИД-РЕГУЛЯТОРА ДЛЯ ДВИГАТЕЛЯ ПОСТОЯННОГО ТОКА
 # ============================================================================
@@ -128,7 +131,7 @@ def liquid_level_control_objective(params):
     Усложнённая версия:
         - Нелинейные потоки (квадратичные)
         - Динамически изменяющиеся уставки
-        - Шум измерений
+        - Шум измерений (фиксированный seed через глобальную переменную _rng_seed)
         - Штраф за скорость изменения управления
         - Штраф за колебания уровней
     """
@@ -155,6 +158,9 @@ def liquid_level_control_objective(params):
         oscillation_penalty = 0.0
         prev_h1, prev_h2 = h1, h2
         
+        # Создаём генератор шума на основе глобального seed
+        rng = np.random.default_rng(_rng_seed) if _rng_seed is not None else np.random.default_rng()
+        
         # Динамика уставок: первая половина времени – h1_ref=1.0, h2_ref=0.8;
         # вторая половина – h1_ref=0.9, h2_ref=0.7 (ступенчатое изменение)
         for k in range(steps):
@@ -165,9 +171,9 @@ def liquid_level_control_objective(params):
             else:        # после 10 секунд – новые уставки
                 h1_ref, h2_ref = 0.9, 0.7
             
-            # Шум измерений (гауссовский, 1% от диапазона)
-            noise1 = np.random.normal(0, 0.01)
-            noise2 = np.random.normal(0, 0.01)
+            # Шум измерений (гауссовский, 1% от диапазона) – используем фиксированный генератор
+            noise1 = rng.normal(0, 0.01)
+            noise2 = rng.normal(0, 0.01)
             h1_meas = h1 + noise1
             h2_meas = h2 + noise2
             
