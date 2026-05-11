@@ -6,11 +6,10 @@
       "best_fitness_median": 0.07971949927441463,
       "best_fitness_q25": 0.07971949918990995,
       "best_fitness_q75": 0.07971950317991879,
-      "execution_time_mean": 28.80530414581299,
-      "execution_time_std": 1.7878491013055415,
+      "execution_time_mean": 21.994565439224242,
+      "execution_time_std": 0.261576931252471,
       "feasible_rate": 100.0,
       "acceptable_rate": 100.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 0.0823452306197031,
       "median_J_at_1000": 0.07973879142178555,
       "median_J_at_2000": 0.07971987311352083,
@@ -18,7 +17,7 @@
         {
           "best_solution": "[15.0900264 30.         0.       ]",
           "best_fitness": 0.07971949918821829,
-          "execution_time": 26.61345911026001,
+          "execution_time": 22.713133573532104,
           "function_evaluations": 3030,
           "convergence_history": [
             0.7052771371560643,
@@ -136,7 +135,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08210650339818938,
           "J_at_1000": 0.0797329356807816,
           "J_at_2000": 0.07971955401733613
@@ -144,7 +142,7 @@
         {
           "best_solution": "[15.0900264 30.         0.       ]",
           "best_fitness": 0.07971949923255246,
-          "execution_time": 29.555588722229004,
+          "execution_time": 21.91418695449829,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5373576684788806,
@@ -262,7 +260,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.0801615970530069,
           "J_at_1000": 0.07974850641332744,
           "J_at_2000": 0.07971951765952855
@@ -270,7 +267,7 @@
         {
           "best_solution": "[15.0900264 30.         0.       ]",
           "best_fitness": 0.07971949919498496,
-          "execution_time": 29.757762670516968,
+          "execution_time": 21.955928564071655,
           "function_evaluations": 3030,
           "convergence_history": [
             1.0075279860760364,
@@ -388,7 +385,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08002659449612498,
           "J_at_1000": 0.07972968977311015,
           "J_at_2000": 0.07972036734093488
@@ -396,7 +392,7 @@
         {
           "best_solution": "[15.09002668 30.          0.        ]",
           "best_fitness": 0.0797195038452798,
-          "execution_time": 26.17312526702881,
+          "execution_time": 22.13143801689148,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3156803978517063,
@@ -514,7 +510,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08320095835219156,
           "J_at_1000": 0.07973855495979545,
           "J_at_2000": 0.07972329479178164
@@ -522,7 +517,7 @@
         {
           "best_solution": "[15.09002658 30.          0.        ]",
           "best_fitness": 0.07971950207024892,
-          "execution_time": 27.440861463546753,
+          "execution_time": 21.908857107162476,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5658057800248945,
@@ -640,7 +635,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.15074325780867484,
           "J_at_1000": 0.07973902788377567,
           "J_at_2000": 0.07971983078156761
@@ -648,7 +642,7 @@
         {
           "best_solution": "[15.09002687 30.          0.        ]",
           "best_fitness": 0.07971950693740124,
-          "execution_time": 32.30406451225281,
+          "execution_time": 21.855626106262207,
           "function_evaluations": 3030,
           "convergence_history": [
             0.47494669906259124,
@@ -766,7 +760,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.09287283845107445,
           "J_at_1000": 0.07984838469622375,
           "J_at_2000": 0.07972005053253309
@@ -774,7 +767,7 @@
         {
           "best_solution": "[15.09002639 30.          0.        ]",
           "best_fitness": 0.07971949907815712,
-          "execution_time": 29.067949295043945,
+          "execution_time": 21.897092580795288,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3933042361103174,
@@ -892,7 +885,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.07982998611573734,
           "J_at_1000": 0.07972065039340512,
           "J_at_2000": 0.07971960523023625
@@ -900,7 +892,7 @@
         {
           "best_solution": "[15.09002641 30.          0.        ]",
           "best_fitness": 0.07971949931627681,
-          "execution_time": 30.757957696914673,
+          "execution_time": 21.771413564682007,
           "function_evaluations": 3030,
           "convergence_history": [
             0.19776953057427907,
@@ -1018,7 +1010,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.0870566871302297,
           "J_at_1000": 0.07985270230322533,
           "J_at_2000": 0.07971991544547405
@@ -1026,7 +1017,7 @@
         {
           "best_solution": "[15.09002639 30.          0.        ]",
           "best_fitness": 0.07971949907166846,
-          "execution_time": 28.296300888061523,
+          "execution_time": 21.763011693954468,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5312704179360941,
@@ -1144,7 +1135,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.07980452164430231,
           "J_at_1000": 0.0797214427402279,
           "J_at_2000": 0.07971956510649378
@@ -1152,7 +1142,7 @@
         {
           "best_solution": "[15.09002667 30.          0.        ]",
           "best_fitness": 0.07971950354980874,
-          "execution_time": 28.08597183227539,
+          "execution_time": 22.034966230392456,
           "function_evaluations": 3030,
           "convergence_history": [
             0.23359281702712686,
@@ -1270,7 +1260,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08258395784121682,
           "J_at_1000": 0.07977879775181762,
           "J_at_2000": 0.07972102066000629
@@ -1283,11 +1272,10 @@
       "best_fitness_median": 0.07999171003548833,
       "best_fitness_q25": 0.07988719414498441,
       "best_fitness_q75": 0.0806875437778634,
-      "execution_time_mean": 32.313547897338864,
-      "execution_time_std": 2.878984112119587,
+      "execution_time_mean": 22.051144313812255,
+      "execution_time_std": 0.21907230919751497,
       "feasible_rate": 100.0,
       "acceptable_rate": 100.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 0.08198991047100679,
       "median_J_at_1000": 0.08042070303001461,
       "median_J_at_2000": 0.08014866893744602,
@@ -1295,7 +1283,7 @@
         {
           "best_solution": "[1.51064684e+01 3.00000000e+01 1.20389926e-02]",
           "best_fitness": 0.07986511801511334,
-          "execution_time": 34.35514974594116,
+          "execution_time": 22.306687355041504,
           "function_evaluations": 3030,
           "convergence_history": [
             0.7052771371560643,
@@ -1413,7 +1401,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08136180861059433,
           "J_at_1000": 0.08008331530227435,
           "J_at_2000": 0.08008331530227435
@@ -1421,7 +1408,7 @@
         {
           "best_solution": "[15.26778623 30.          0.1199835 ]",
           "best_fitness": 0.08138585916258512,
-          "execution_time": 33.31786870956421,
+          "execution_time": 21.87542986869812,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5373576684788806,
@@ -1539,7 +1526,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08618786745252296,
           "J_at_1000": 0.08299450931807671,
           "J_at_2000": 0.08138585916258512
@@ -1547,7 +1533,7 @@
         {
           "best_solution": "[1.51218883e+01 3.00000000e+01 2.39818367e-02]",
           "best_fitness": 0.07999460239457577,
-          "execution_time": 32.027435541152954,
+          "execution_time": 22.154847860336304,
           "function_evaluations": 3030,
           "convergence_history": [
             1.0075279860760364,
@@ -1665,7 +1651,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08438481490365793,
           "J_at_1000": 0.07999460239457577,
           "J_at_2000": 0.07999460239457577
@@ -1673,7 +1658,7 @@
         {
           "best_solution": "[1.51127721e+01 3.00000000e+01 1.70837571e-02]",
           "best_fitness": 0.07991640410648512,
-          "execution_time": 38.19411039352417,
+          "execution_time": 22.466099977493286,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3156803978517063,
@@ -1791,7 +1776,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08051226080503664,
           "J_at_1000": 0.08005573915479056,
           "J_at_2000": 0.08005573915479056
@@ -1799,7 +1783,7 @@
         {
           "best_solution": "[1.51264847e+01 3.00000000e+01 2.71561480e-02]",
           "best_fitness": 0.08003715391620396,
-          "execution_time": 33.47760033607483,
+          "execution_time": 21.742902278900146,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5658057800248945,
@@ -1917,7 +1901,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08082296562870879,
           "J_at_1000": 0.08075809075775489,
           "J_at_2000": 0.08026643760939822
@@ -1925,7 +1908,7 @@
         {
           "best_solution": "[15.63625543 30.          0.32340824]",
           "best_fitness": 0.08527724916154855,
-          "execution_time": 27.021443128585815,
+          "execution_time": 21.97260618209839,
           "function_evaluations": 3030,
           "convergence_history": [
             0.47494669906259124,
@@ -2043,7 +2026,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.09766802362973936,
           "J_at_1000": 0.0878925408361565,
           "J_at_2000": 0.08679803360925857
@@ -2051,7 +2033,7 @@
         {
           "best_solution": "[1.51076778e+01 3.00000000e+01 1.27664541e-02]",
           "best_fitness": 0.07987745749115084,
-          "execution_time": 31.269423246383667,
+          "execution_time": 22.02120542526245,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3933042361103174,
@@ -2169,7 +2151,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08184187644193686,
           "J_at_1000": 0.08004934075754219,
           "J_at_2000": 0.08004934075754219
@@ -2177,7 +2158,7 @@
         {
           "best_solution": "[1.50933156e+01 3.00000000e+01 1.82162313e-03]",
           "best_fitness": 0.07975472591934067,
-          "execution_time": 30.916653394699097,
+          "execution_time": 21.750245809555054,
           "function_evaluations": 3030,
           "convergence_history": [
             0.19776953057427907,
@@ -2295,7 +2276,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08555275755680546,
           "J_at_1000": 0.07984385778181885,
           "J_at_2000": 0.07984385778181885
@@ -2303,7 +2283,7 @@
         {
           "best_solution": "[15.21948816 30.          0.09036384]",
           "best_fitness": 0.08090434039841654,
-          "execution_time": 33.33918023109436,
+          "execution_time": 22.13408374786377,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5312704179360941,
@@ -2421,7 +2401,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08136522602096034,
           "J_at_1000": 0.08136522602096034,
           "J_at_2000": 0.08107537053860514
@@ -2429,7 +2408,7 @@
         {
           "best_solution": "[1.51176175e+01 3.00000000e+01 1.77864413e-02]",
           "best_fitness": 0.07998881767640088,
-          "execution_time": 29.216614246368408,
+          "execution_time": 22.087334632873535,
           "function_evaluations": 3030,
           "convergence_history": [
             0.23359281702712686,
@@ -2547,7 +2526,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.0821379445000767,
           "J_at_1000": 0.08149517637547604,
           "J_at_2000": 0.08021402257261767
@@ -2560,11 +2538,10 @@
       "best_fitness_median": 0.08610024047226947,
       "best_fitness_q25": 0.07972004379102499,
       "best_fitness_q75": 0.12413170459966882,
-      "execution_time_mean": 27.9176696062088,
-      "execution_time_std": 2.5228613608561967,
+      "execution_time_mean": 21.900222778320312,
+      "execution_time_std": 0.14511926418748244,
       "feasible_rate": 100.0,
       "acceptable_rate": 90.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 0.08764297139899446,
       "median_J_at_1000": 0.08618174696011177,
       "median_J_at_2000": 0.08610037899013681,
@@ -2572,7 +2549,7 @@
         {
           "best_solution": "[15.09005615 30.          0.        ]",
           "best_fitness": 0.0797199880926939,
-          "execution_time": 31.053460597991943,
+          "execution_time": 21.729403257369995,
           "function_evaluations": 3030,
           "convergence_history": [
             0.7052771371560643,
@@ -2690,7 +2667,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08273954098932065,
           "J_at_1000": 0.07988418997351722,
           "J_at_2000": 0.07972100671163113
@@ -2698,7 +2674,7 @@
         {
           "best_solution": "[15.09003526 30.          0.        ]",
           "best_fitness": 0.07971964486198732,
-          "execution_time": 26.799142599105835,
+          "execution_time": 21.85008144378662,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5373576684788806,
@@ -2816,7 +2792,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08030095716217107,
           "J_at_1000": 0.0797416178502181,
           "J_at_2000": 0.07972092096999558
@@ -2824,7 +2799,7 @@
         {
           "best_solution": "[15.09004321 30.          0.        ]",
           "best_fitness": 0.07971977544404353,
-          "execution_time": 28.77836298942566,
+          "execution_time": 22.002598762512207,
           "function_evaluations": 3030,
           "convergence_history": [
             1.0075279860760364,
@@ -2942,7 +2917,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.07996983466573451,
           "J_at_1000": 0.07981441313782227,
           "J_at_2000": 0.07972101648139786
@@ -2950,7 +2924,7 @@
         {
           "best_solution": "[19.74482757 30.          2.45659815]",
           "best_fitness": 0.13420704334620653,
-          "execution_time": 30.687426328659058,
+          "execution_time": 22.010952711105347,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3156803978517063,
@@ -3068,7 +3042,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.1343151320966665,
           "J_at_1000": 0.13420711852700506,
           "J_at_2000": 0.13420705345792508
@@ -3076,7 +3049,7 @@
         {
           "best_solution": "[29.58650122 30.         10.        ]",
           "best_fitness": 0.3108367296807543,
-          "execution_time": 29.551095962524414,
+          "execution_time": 21.845703125,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5658057800248945,
@@ -3194,7 +3167,6 @@
           ],
           "feasible": true,
           "acceptable": "False",
-          "fe_to_target": null,
           "J_at_500": 0.31213963382700327,
           "J_at_1000": 0.3108583941720664,
           "J_at_2000": 0.31083731589448416
@@ -3202,7 +3174,7 @@
         {
           "best_solution": "[22.61821761 30.          4.19083422]",
           "best_fitness": 0.17515375290155807,
-          "execution_time": 31.42344832420349,
+          "execution_time": 21.66487216949463,
           "function_evaluations": 3030,
           "convergence_history": [
             0.47494669906259124,
@@ -3320,7 +3292,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.17520500653566923,
           "J_at_1000": 0.1751636032466662,
           "J_at_2000": 0.1751609218598798
@@ -3328,7 +3299,7 @@
         {
           "best_solution": "[16.28453222 30.          0.65095274]",
           "best_fitness": 0.09247838667909021,
-          "execution_time": 25.02615976333618,
+          "execution_time": 21.947086572647095,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3933042361103174,
@@ -3446,7 +3417,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.09254640180866829,
           "J_at_1000": 0.09247930394670631,
           "J_at_2000": 0.0924784594583411
@@ -3454,7 +3424,7 @@
         {
           "best_solution": "[15.0900697 30.         0.       ]",
           "best_fitness": 0.07972021088601827,
-          "execution_time": 25.19717049598694,
+          "execution_time": 22.149038076400757,
           "function_evaluations": 3030,
           "convergence_history": [
             0.19776953057427907,
@@ -3572,7 +3542,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.07995460008833762,
           "J_at_1000": 0.07972352967279575,
           "J_at_2000": 0.07972130870678702
@@ -3580,7 +3549,7 @@
         {
           "best_solution": "[15.08976668 29.99953238  0.        ]",
           "best_fitness": 0.07972209426544873,
-          "execution_time": 25.186508655548096,
+          "execution_time": 21.771455764770508,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5312704179360941,
@@ -3698,7 +3667,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08179057702818607,
           "J_at_1000": 0.07973589689949566,
           "J_at_2000": 0.07972229852193252
@@ -3706,7 +3674,7 @@
         {
           "best_solution": "[16.41128488 30.          0.7143767 ]",
           "best_fitness": 0.09390568836005567,
-          "execution_time": 25.473920345306396,
+          "execution_time": 22.031035900115967,
           "function_evaluations": 3030,
           "convergence_history": [
             0.23359281702712686,
@@ -3824,7 +3792,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.09403169977796134,
           "J_at_1000": 0.09390989709131908,
           "J_at_2000": 0.0939058443342364
@@ -3837,11 +3804,10 @@
       "best_fitness_median": 0.11039527502119253,
       "best_fitness_q25": 0.08036392690230747,
       "best_fitness_q75": 0.19230780906696654,
-      "execution_time_mean": 31.991688275337218,
-      "execution_time_std": 2.684233969606767,
+      "execution_time_mean": 21.87371871471405,
+      "execution_time_std": 0.15580934633108437,
       "feasible_rate": 100.0,
       "acceptable_rate": 80.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 0.12493790435115128,
       "median_J_at_1000": 0.12262294987263991,
       "median_J_at_2000": 0.11143125533921265,
@@ -3849,7 +3815,7 @@
         {
           "best_solution": "[15.17487991 29.9998249   0.05831904]",
           "best_fitness": 0.080510272818902,
-          "execution_time": 25.471047163009644,
+          "execution_time": 22.176424264907837,
           "function_evaluations": 3030,
           "convergence_history": [
             0.7052771371560643,
@@ -3967,7 +3933,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08173363989685287,
           "J_at_1000": 0.08173363989685287,
           "J_at_2000": 0.08134764213939044
@@ -3975,7 +3940,7 @@
         {
           "best_solution": "[23.67249966 29.98837772  4.90905358]",
           "best_fitness": 0.19231633352698227,
-          "execution_time": 31.910267114639282,
+          "execution_time": 21.701447248458862,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5373576684788806,
@@ -4093,7 +4058,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.19320906618073558,
           "J_at_1000": 0.19320906618073558,
           "J_at_2000": 0.19320906618073558
@@ -4101,7 +4065,7 @@
         {
           "best_solution": "[15.15813965 30.          0.05039566]",
           "best_fitness": 0.08031514493010929,
-          "execution_time": 33.1518280506134,
+          "execution_time": 22.015124797821045,
           "function_evaluations": 3030,
           "convergence_history": [
             1.0075279860760364,
@@ -4219,7 +4183,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08553655075680736,
           "J_at_1000": 0.08137589287278238,
           "J_at_2000": 0.08103462684583884
@@ -4227,7 +4190,7 @@
         {
           "best_solution": "[16.49275736 29.98581037  0.75481119]",
           "best_fitness": 0.09507037187188977,
-          "execution_time": 31.705521821975708,
+          "execution_time": 21.770437955856323,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3156803978517063,
@@ -4345,7 +4308,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.10419211708520622,
           "J_at_1000": 0.09641190870648511,
           "J_at_2000": 0.09641190870648511
@@ -4353,7 +4315,7 @@
         {
           "best_solution": "[29.55294479 30.          9.96969074]",
           "best_fitness": 0.31015922431178505,
-          "execution_time": 33.86657476425171,
+          "execution_time": 21.69026017189026,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5658057800248945,
@@ -4471,7 +4433,6 @@
           ],
           "feasible": true,
           "acceptable": "False",
-          "fe_to_target": null,
           "J_at_500": 0.32593034990476377,
           "J_at_1000": 0.31323363988390984,
           "J_at_2000": 0.3109286649410078
@@ -4479,7 +4440,7 @@
         {
           "best_solution": "[25.60632566 29.99859009  6.33100778]",
           "best_fitness": 0.22591579317301935,
-          "execution_time": 31.985532760620117,
+          "execution_time": 21.710904359817505,
           "function_evaluations": 3030,
           "convergence_history": [
             0.47494669906259124,
@@ -4597,7 +4558,6 @@
           ],
           "feasible": true,
           "acceptable": "False",
-          "fe_to_target": null,
           "J_at_500": 0.22726394526569166,
           "J_at_1000": 0.22726394526569166,
           "J_at_2000": 0.22726394526569166
@@ -4605,7 +4565,7 @@
         {
           "best_solution": "[15.08806931 29.98709963  0.        ]",
           "best_fitness": 0.07987686327747669,
-          "execution_time": 30.83137798309326,
+          "execution_time": 21.959638595581055,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3933042361103174,
@@ -4723,7 +4683,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08040057372595001,
           "J_at_1000": 0.07998491450832179,
           "J_at_2000": 0.07998491450832179
@@ -4731,7 +4690,7 @@
         {
           "best_solution": "[23.68297327 29.99789896  4.91284423]",
           "best_fitness": 0.1922822356869194,
-          "execution_time": 31.750208377838135,
+          "execution_time": 21.82560634613037,
           "function_evaluations": 3030,
           "convergence_history": [
             0.19776953057427907,
@@ -4849,7 +4808,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.19509399713966688,
           "J_at_1000": 0.19247504132060078,
           "J_at_2000": 0.19234299664044743
@@ -4857,7 +4815,7 @@
         {
           "best_solution": "[15.09040769 29.99906444  0.        ]",
           "best_fitness": 0.07973950096916786,
-          "execution_time": 32.46145176887512,
+          "execution_time": 22.018322229385376,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5312704179360941,
@@ -4975,7 +4933,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.11412418252248069,
           "J_at_1000": 0.10949427356545796,
           "J_at_2000": 0.07973950096916786
@@ -4983,7 +4940,7 @@
         {
           "best_solution": "[19.07388099 29.9939727   2.09092004]",
           "best_fitness": 0.1257201781704953,
-          "execution_time": 36.78307294845581,
+          "execution_time": 21.86902117729187,
           "function_evaluations": 3030,
           "convergence_history": [
             0.23359281702712686,
@@ -5101,7 +5058,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.13575162617982187,
           "J_at_1000": 0.13575162617982187,
           "J_at_2000": 0.1264506019719402
@@ -5114,11 +5070,10 @@
       "best_fitness_median": 0.07993029043153266,
       "best_fitness_q25": 0.07978955934509219,
       "best_fitness_q75": 0.08153525327386575,
-      "execution_time_mean": 31.86245505809784,
-      "execution_time_std": 3.7697733493274797,
+      "execution_time_mean": 21.9762553691864,
+      "execution_time_std": 0.12325301755593725,
       "feasible_rate": 100.0,
       "acceptable_rate": 100.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 0.0908460955634316,
       "median_J_at_1000": 0.08128278660800389,
       "median_J_at_2000": 0.07997535475540003,
@@ -5126,7 +5081,7 @@
         {
           "best_solution": "[15.10413569 30.          0.        ]",
           "best_fitness": 0.07995175757399986,
-          "execution_time": 28.28197479248047,
+          "execution_time": 21.93768286705017,
           "function_evaluations": 3030,
           "convergence_history": [
             0.7052771371560643,
@@ -5244,7 +5199,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.07998839430725689,
           "J_at_1000": 0.07995175757399986,
           "J_at_2000": 0.07995175757399986
@@ -5252,7 +5206,7 @@
         {
           "best_solution": "[15.22923333 29.99966231  0.        ]",
           "best_fitness": 0.08204735371955427,
-          "execution_time": 30.608793258666992,
+          "execution_time": 22.096471309661865,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5373576684788806,
@@ -5370,7 +5324,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08402981053440758,
           "J_at_1000": 0.08402981053440758,
           "J_at_2000": 0.0829090597414796
@@ -5378,7 +5331,7 @@
         {
           "best_solution": "[15.10699736 30.          0.        ]",
           "best_fitness": 0.0799989519368002,
-          "execution_time": 26.038119792938232,
+          "execution_time": 21.832048416137695,
           "function_evaluations": 3030,
           "convergence_history": [
             1.0075279860760364,
@@ -5496,7 +5449,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08198781848304404,
           "J_at_1000": 0.0799989519368002,
           "J_at_2000": 0.0799989519368002
@@ -5504,7 +5456,7 @@
         {
           "best_solution": "[15.09036309 30.          0.        ]",
           "best_fitness": 0.0797250331444234,
-          "execution_time": 30.370686531066895,
+          "execution_time": 21.91872215270996,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3156803978517063,
@@ -5622,7 +5574,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.0980301237329698,
           "J_at_1000": 0.08130350762319799,
           "J_at_2000": 0.0797250331444234
@@ -5630,7 +5581,7 @@
         {
           "best_solution": "[15.09241088 30.          0.        ]",
           "best_fitness": 0.07975870067292161,
-          "execution_time": 28.4349627494812,
+          "execution_time": 22.123844623565674,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5658057800248945,
@@ -5748,7 +5699,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.09541195190892983,
           "J_at_1000": 0.07975870067292161,
           "J_at_2000": 0.07975870067292161
@@ -5756,7 +5706,7 @@
         {
           "best_solution": "[15.09248532 30.          0.        ]",
           "best_fitness": 0.07975992489928745,
-          "execution_time": 34.65444564819336,
+          "execution_time": 21.914846658706665,
           "function_evaluations": 3030,
           "convergence_history": [
             0.47494669906259124,
@@ -5874,7 +5824,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08738632830630075,
           "J_at_1000": 0.08738632830630075,
           "J_at_2000": 0.08721617808544825
@@ -5882,7 +5831,7 @@
         {
           "best_solution": "[15.6130911  29.99307893  0.31010636]",
           "best_fitness": 0.0851460045051509,
-          "execution_time": 38.57185387611389,
+          "execution_time": 21.94068956375122,
           "function_evaluations": 3030,
           "convergence_history": [
             0.3933042361103174,
@@ -6000,7 +5949,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.1403946044958561,
           "J_at_1000": 0.08826912759815828,
           "J_at_2000": 0.08826912759815828
@@ -6008,7 +5956,7 @@
         {
           "best_solution": "[15.10153078 30.          0.        ]",
           "best_fitness": 0.07990882328906544,
-          "execution_time": 34.17488098144531,
+          "execution_time": 22.143827438354492,
           "function_evaluations": 3030,
           "convergence_history": [
             0.19776953057427907,
@@ -6126,7 +6074,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.09296110978182962,
           "J_at_1000": 0.07990882328906544,
           "J_at_2000": 0.07990882328906544
@@ -6134,7 +6081,7 @@
         {
           "best_solution": "[16.55074584 30.          0.72240848]",
           "best_fitness": 0.09642946299458978,
-          "execution_time": 31.044200658798218,
+          "execution_time": 21.76572060585022,
           "function_evaluations": 3030,
           "convergence_history": [
             0.5312704179360941,
@@ -6252,7 +6199,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.09680169429265126,
           "J_at_1000": 0.09680169429265126,
           "J_at_2000": 0.09642946299458978
@@ -6260,7 +6206,7 @@
         {
           "best_solution": "[15.09968785 30.          0.        ]",
           "best_fitness": 0.07987846268250641,
-          "execution_time": 36.44463229179382,
+          "execution_time": 22.08870005607605,
           "function_evaluations": 3030,
           "convergence_history": [
             0.23359281702712686,
@@ -6378,7 +6324,6 @@
           ],
           "feasible": true,
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.08873108134503359,
           "J_at_1000": 0.08126206559280978,
           "J_at_2000": 0.07987846268250641
@@ -6393,11 +6338,10 @@
       "best_fitness_median": 0.06099901094313884,
       "best_fitness_q25": 0.06099895779084171,
       "best_fitness_q75": 0.061003472122088044,
-      "execution_time_mean": 3.786817709604899,
-      "execution_time_std": 1.837557522645873,
+      "execution_time_mean": 3.1990023454030356,
+      "execution_time_std": 1.537341080783599,
       "feasible_rate": 60.0,
       "acceptable_rate": 60.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 500000.0665291772,
       "median_J_at_1000": 0.0955493330087241,
       "median_J_at_2000": 0.061916714726221775,
@@ -6405,7 +6349,7 @@
         {
           "best_solution": "[-5.48419925 -4.8003884  50.          5.81241144]",
           "best_fitness": 0.06099894620510622,
-          "execution_time": 5.129420280456543,
+          "execution_time": 4.569920539855957,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -6524,7 +6468,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.10621588263062798,
           "J_at_1000": 0.06777001420309624,
           "J_at_2000": 0.06101854092019526
@@ -6532,7 +6475,7 @@
         {
           "best_solution": "[-5.47784435 -4.79718353 50.          5.81020834]",
           "best_fitness": 0.060998963800480484,
-          "execution_time": 6.7116758823394775,
+          "execution_time": 5.640668153762817,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -6651,7 +6594,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.09402083316111044,
           "J_at_1000": 0.06115009404791598,
           "J_at_2000": 0.06100201442110702
@@ -6659,7 +6601,7 @@
         {
           "best_solution": "[-5.40573527 -4.69978673 50.          5.72215404]",
           "best_fitness": 0.06100494346751833,
-          "execution_time": 2.893533229827881,
+          "execution_time": 2.188796043395996,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -6778,7 +6720,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 0.06765515892393291
@@ -6786,7 +6727,7 @@
         {
           "best_solution": "[-43.49656032  32.23142195 -45.91966933   7.68358716]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.44982099533081055,
+          "execution_time": 0.4007112979888916,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -6905,7 +6846,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -6913,7 +6853,7 @@
         {
           "best_solution": "[-5.49240373 -4.80770846 50.          5.8234217 ]",
           "best_fitness": 0.0609990580857972,
-          "execution_time": 4.309968948364258,
+          "execution_time": 3.324861526489258,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -7032,7 +6972,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 0.08533631608106092,
           "J_at_2000": 0.06279315182026719
@@ -7040,7 +6979,7 @@
         {
           "best_solution": "[-41.78567898  22.51973344   0.97278357  30.88169638]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.4203498363494873,
+          "execution_time": 0.3980562686920166,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -7159,7 +7098,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -7167,7 +7105,7 @@
         {
           "best_solution": "[  3.61116681 -22.5892379  -45.89650475 -42.76432426]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.41423487663269043,
+          "execution_time": 0.4103128910064697,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -7286,7 +7224,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -7294,7 +7231,7 @@
         {
           "best_solution": "[-3.46426377 -2.19782784 38.25027266  3.30471404]",
           "best_fitness": 0.08013112379520626,
-          "execution_time": 1.0519912242889404,
+          "execution_time": 1.0222430229187012,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -7413,7 +7350,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 0.1991882928438802,
           "J_at_2000": 0.08667603502015996
@@ -7421,7 +7357,7 @@
         {
           "best_solution": "[-5.48595871 -4.80702839 50.          5.81836671]",
           "best_fitness": 0.06099895578762879,
-          "execution_time": 2.624316692352295,
+          "execution_time": 2.4475247859954834,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -7540,7 +7476,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.13305835436025176,
           "J_at_1000": 0.10576234993638729,
           "J_at_2000": 0.061040277632176364
@@ -7548,7 +7483,7 @@
         {
           "best_solution": "[ 30.08036346  32.68487695 -33.23748805 -47.12649591]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.41931748390197754,
+          "execution_time": 0.42697739601135254,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -7667,7 +7602,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -7680,11 +7614,10 @@
       "best_fitness_median": 0.060999045447380905,
       "best_fitness_q25": 0.060999019218455394,
       "best_fitness_q75": 0.06099922823852323,
-      "execution_time_mean": 12.267655277252198,
-      "execution_time_std": 5.882645605372,
+      "execution_time_mean": 10.651522541046143,
+      "execution_time_std": 5.07204428446124,
       "feasible_rate": 50.0,
       "acceptable_rate": 50.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 0.06740720056603246,
       "median_J_at_1000": 0.06128518785685025,
       "median_J_at_2000": 0.06107366294572096,
@@ -7692,7 +7625,7 @@
         {
           "best_solution": "[-12.54598812  45.07143064  23.19939418   9.86584842]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5795371532440186,
+          "execution_time": 0.5691473484039307,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -7811,7 +7744,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -7819,7 +7751,7 @@
         {
           "best_solution": "[-5.48003031 -4.79318131 50.          5.80993425]",
           "best_fitness": 0.060999019218455394,
-          "execution_time": 16.54635214805603,
+          "execution_time": 13.303810596466064,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -7938,7 +7870,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.06433961123157034,
           "J_at_1000": 0.061109013374882545,
           "J_at_2000": 0.061009378706361875
@@ -7946,7 +7877,7 @@
         {
           "best_solution": "[-5.49465004 -4.79330517 50.          5.80229899]",
           "best_fitness": 0.06099922823852323,
-          "execution_time": 14.738417387008667,
+          "execution_time": 13.33009958267212,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -8065,7 +7996,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.06485814445894274,
           "J_at_1000": 0.06107366294572096,
           "J_at_2000": 0.06107366294572096
@@ -8073,7 +8003,7 @@
         {
           "best_solution": "[-43.49656032  32.23142195 -45.91966933   7.68358716]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5905196666717529,
+          "execution_time": 0.5546479225158691,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -8192,7 +8122,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -8200,7 +8129,7 @@
         {
           "best_solution": "[-5.47302785 -4.80783285 50.          5.81925016]",
           "best_fitness": 0.060999045447380905,
-          "execution_time": 15.675376892089844,
+          "execution_time": 13.80205249786377,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -8319,7 +8248,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.06740720056603246,
           "J_at_1000": 0.06128518785685025,
           "J_at_2000": 0.06101387683670811
@@ -8327,7 +8255,7 @@
         {
           "best_solution": "[ -3.18780232 -18.3280556   24.62122843  22.21708133]",
           "best_fitness": 0.5140882780991962,
-          "execution_time": 0.6538159847259521,
+          "execution_time": 0.5573692321777344,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -8446,7 +8374,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 4.618988153723463,
           "J_at_1000": 0.7887241304680718,
           "J_at_2000": 0.5140882780991962
@@ -8454,7 +8381,7 @@
         {
           "best_solution": "[  3.61116681 -22.5892379  -45.89650475 -42.76432426]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5816264152526855,
+          "execution_time": 0.5454237461090088,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -8573,7 +8500,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -8581,7 +8507,7 @@
         {
           "best_solution": "[-49.87171411 -30.88029089  -5.03200376 -19.44485382]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5464344024658203,
+          "execution_time": 0.540846586227417,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -8700,7 +8626,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -8708,7 +8633,7 @@
         {
           "best_solution": "[-5.47761866 -4.80565031 50.          5.81794039]",
           "best_fitness": 0.06099898437621595,
-          "execution_time": 13.724313974380493,
+          "execution_time": 12.264280796051025,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -8827,7 +8752,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.14348206970610322,
           "J_at_1000": 0.06430567404049722,
           "J_at_2000": 0.0610901934164444
@@ -8835,7 +8759,7 @@
         {
           "best_solution": "[ 30.08036346  32.68487695 -33.23748805 -47.12649591]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5711245536804199,
+          "execution_time": 0.5396304130554199,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -8954,7 +8878,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -8967,11 +8890,10 @@
       "best_fitness_median": 0.1090214604770335,
       "best_fitness_q25": 0.1090214604770335,
       "best_fitness_q75": 0.1090214604770335,
-      "execution_time_mean": 15.192994832992554,
+      "execution_time_mean": 12.380778312683105,
       "execution_time_std": 0.0,
       "feasible_rate": 10.0,
       "acceptable_rate": 10.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 0.11174550934593283,
       "median_J_at_1000": 0.1101074519697171,
       "median_J_at_2000": 0.10952167455961229,
@@ -8979,7 +8901,7 @@
         {
           "best_solution": "[-12.54598812  45.07143064  23.19939418   9.86584842]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.48442721366882324,
+          "execution_time": 0.4614841938018799,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -9098,7 +9020,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -9106,7 +9027,7 @@
         {
           "best_solution": "[40.20615248  5.78075358 15.59847055 33.24714128]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5176370143890381,
+          "execution_time": 0.4557924270629883,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -9225,7 +9146,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -9233,7 +9153,7 @@
         {
           "best_solution": "[ 18.46864538 -44.47958886  14.75740186   7.97291554]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5610699653625488,
+          "execution_time": 0.46150803565979004,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -9352,7 +9272,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -9360,7 +9279,7 @@
         {
           "best_solution": "[-43.49656032  32.23142195 -45.91966933   7.68358716]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.7103171348571777,
+          "execution_time": 0.4655766487121582,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -9479,7 +9398,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -9487,7 +9405,7 @@
         {
           "best_solution": "[ -1.86369254 -24.5597339   50.          19.96085723]",
           "best_fitness": 0.1090214604770335,
-          "execution_time": 15.192994832992554,
+          "execution_time": 12.380778312683105,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -9606,7 +9524,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.11174550934593283,
           "J_at_1000": 0.1101074519697171,
           "J_at_2000": 0.10952167455961229
@@ -9614,7 +9531,7 @@
         {
           "best_solution": "[-41.78567898  22.51973344   0.97278357  30.88169638]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.554631233215332,
+          "execution_time": 0.46160197257995605,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -9733,7 +9650,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -9741,7 +9657,7 @@
         {
           "best_solution": "[  3.61116681 -22.5892379  -45.89650475 -42.76432426]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5363645553588867,
+          "execution_time": 0.4656198024749756,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -9860,7 +9776,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -9868,7 +9783,7 @@
         {
           "best_solution": "[-49.87171411 -30.88029089  -5.03200376 -19.44485382]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.7868609428405762,
+          "execution_time": 0.47334837913513184,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -9987,7 +9902,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -9995,7 +9909,7 @@
         {
           "best_solution": "[13.32118529 14.66339425 35.15351774 -5.75993628]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.6094319820404053,
+          "execution_time": 0.46132636070251465,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -10114,7 +10028,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -10122,7 +10035,7 @@
         {
           "best_solution": "[ 30.08036346  32.68487695 -33.23748805 -47.12649591]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5846703052520752,
+          "execution_time": 0.46442508697509766,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -10241,7 +10154,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -10258,7 +10170,6 @@
       "execution_time_std": NaN,
       "feasible_rate": 0.0,
       "acceptable_rate": 0.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": NaN,
       "median_J_at_1000": NaN,
       "median_J_at_2000": NaN,
@@ -10266,7 +10177,7 @@
         {
           "best_solution": "[-12.54598812  45.07143064  23.19939418   9.86584842]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5979063510894775,
+          "execution_time": 0.5103669166564941,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -10385,7 +10296,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -10393,7 +10303,7 @@
         {
           "best_solution": "[40.20615248  5.78075358 15.59847055 33.24714128]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5825212001800537,
+          "execution_time": 0.5024328231811523,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -10512,7 +10422,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -10520,7 +10429,7 @@
         {
           "best_solution": "[ 18.46864538 -44.47958886  14.75740186   7.97291554]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.560692548751831,
+          "execution_time": 0.5014827251434326,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -10639,7 +10548,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -10647,7 +10555,7 @@
         {
           "best_solution": "[-43.49656032  32.23142195 -45.91966933   7.68358716]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5159525871276855,
+          "execution_time": 0.5118710994720459,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -10766,7 +10674,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -10774,7 +10681,7 @@
         {
           "best_solution": "[-10.53238258 -30.17933589 -24.51689342  30.85453476]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5432693958282471,
+          "execution_time": 0.5090658664703369,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -10893,7 +10800,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -10901,7 +10807,7 @@
         {
           "best_solution": "[-41.78567898  22.51973344   0.97278357  30.88169638]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.6483616828918457,
+          "execution_time": 0.5037283897399902,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -11020,7 +10926,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -11028,7 +10933,7 @@
         {
           "best_solution": "[  3.61116681 -22.5892379  -45.89650475 -42.76432426]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.8110344409942627,
+          "execution_time": 0.5044538974761963,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -11147,7 +11052,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -11155,7 +11059,7 @@
         {
           "best_solution": "[-49.87171411 -30.88029089  -5.03200376 -19.44485382]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.6845245361328125,
+          "execution_time": 0.49560546875,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -11274,7 +11178,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -11282,7 +11185,7 @@
         {
           "best_solution": "[13.32118529 14.66339425 35.15351774 -5.75993628]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.9856398105621338,
+          "execution_time": 0.5319139957427979,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -11401,7 +11304,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -11409,7 +11311,7 @@
         {
           "best_solution": "[ 30.08036346  32.68487695 -33.23748805 -47.12649591]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.6458449363708496,
+          "execution_time": 0.5638909339904785,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -11528,7 +11430,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -11541,11 +11442,10 @@
       "best_fitness_median": 0.0654436380898994,
       "best_fitness_q25": 0.06332305535625359,
       "best_fitness_q75": 0.0682018723740533,
-      "execution_time_mean": 1.1875672042369843,
-      "execution_time_std": 0.13143132176333688,
+      "execution_time_mean": 1.0795339941978455,
+      "execution_time_std": 0.12366950084351064,
       "feasible_rate": 80.0,
       "acceptable_rate": 80.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 0.11888181618499305,
       "median_J_at_1000": 0.07611068222509494,
       "median_J_at_2000": 0.07027904330045917,
@@ -11553,7 +11453,7 @@
         {
           "best_solution": "[ -5.33046098 -13.17285474  50.          12.02223097]",
           "best_fitness": 0.07404915525328519,
-          "execution_time": 1.329171895980835,
+          "execution_time": 1.2917816638946533,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -11672,7 +11572,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.12104767441862962,
           "J_at_1000": 0.10096544126006785,
           "J_at_2000": 0.09397935142807567
@@ -11680,7 +11579,7 @@
         {
           "best_solution": "[-4.85656879 -7.28939485 50.          7.37427512]",
           "best_fitness": 0.06378252513425471,
-          "execution_time": 1.2000408172607422,
+          "execution_time": 1.1186423301696777,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -11799,7 +11698,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.06681747209646234,
           "J_at_1000": 0.06430058754298452,
           "J_at_2000": 0.06378252513425471
@@ -11807,7 +11705,7 @@
         {
           "best_solution": "[-6.68862119 -8.34693499 49.84561177  9.01167614]",
           "best_fitness": 0.06509284939982196,
-          "execution_time": 1.2380924224853516,
+          "execution_time": 1.0591137409210205,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -11926,7 +11824,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.07643393911937246,
           "J_at_1000": 0.06942659220540466,
           "J_at_2000": 0.06728112916332353
@@ -11934,7 +11831,7 @@
         {
           "best_solution": "[-6.03004452 -9.4623023  50.          9.81691435]",
           "best_fitness": 0.06660742629668659,
-          "execution_time": 1.3779165744781494,
+          "execution_time": 1.2447559833526611,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -12053,7 +11950,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.13509510385511903,
           "J_at_1000": 0.11411834546794616,
           "J_at_2000": 0.07683590831244383
@@ -12061,7 +11957,7 @@
         {
           "best_solution": "[-10.53238258 -30.17933589 -24.51689342  30.85453476]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.7272655963897705,
+          "execution_time": 0.5332186222076416,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -12180,7 +12076,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -12188,7 +12083,7 @@
         {
           "best_solution": "[-5.54655595 -3.898565   50.          5.0022682 ]",
           "best_fitness": 0.06150909747223285,
-          "execution_time": 1.076507568359375,
+          "execution_time": 1.0097253322601318,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -12307,7 +12202,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.06154212449718183,
           "J_at_1000": 0.06154212449718183,
           "J_at_2000": 0.06154212449718183
@@ -12315,7 +12209,7 @@
         {
           "best_solution": "[-6.20307513 -6.37430705 50.          6.99302158]",
           "best_fitness": 0.061944646022250194,
-          "execution_time": 1.2432148456573486,
+          "execution_time": 0.9500062465667725,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -12434,7 +12328,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 0.11671595795135647,
           "J_at_1000": 0.06877116199561607,
           "J_at_2000": 0.0632484140554076
@@ -12442,7 +12335,7 @@
         {
           "best_solution": "[-2.34156929 -2.18593007 47.37837939  3.2991966 ]",
           "best_fitness": 0.07298521060615341,
-          "execution_time": 0.9624547958374023,
+          "execution_time": 0.9217965602874756,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -12561,7 +12454,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 0.08322697905512856
@@ -12569,7 +12461,7 @@
         {
           "best_solution": "[-5.73984849 -9.13945005 49.95594296  9.19497004]",
           "best_fitness": 0.06579442677997685,
-          "execution_time": 1.07313871383667,
+          "execution_time": 1.040450096130371,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -12688,7 +12580,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 0.08279477224478522,
           "J_at_2000": 0.0732769574375948
@@ -12696,7 +12587,7 @@
         {
           "best_solution": "[ 30.08036346  32.68487695 -33.23748805 -47.12649591]",
           "best_fitness": 1000000.0,
-          "execution_time": 0.5358145236968994,
+          "execution_time": 0.5291910171508789,
           "function_evaluations": 3030,
           "convergence_history": [
             1000000.0,
@@ -12815,7 +12706,6 @@
           ],
           "feasible": false,
           "acceptable": false,
-          "fe_to_target": null,
           "J_at_500": 1000000.0,
           "J_at_1000": 1000000.0,
           "J_at_2000": 1000000.0
@@ -12830,11 +12720,10 @@
       "best_fitness_median": 1.2846524507285624,
       "best_fitness_q25": 1.2638606201494622,
       "best_fitness_q75": 1.3161349024412887,
-      "execution_time_mean": 25.886490917205812,
-      "execution_time_std": 1.5873071790617124,
+      "execution_time_mean": 22.227426052093506,
+      "execution_time_std": 0.33255984083151713,
       "feasible_rate": 100.0,
       "acceptable_rate": 100.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 1.284941741153088,
       "median_J_at_1000": 1.2846539256665699,
       "median_J_at_2000": 1.2846524995345006,
@@ -12842,7 +12731,7 @@
         {
           "best_solution": "[2.54846809 0.32386783 1.88473457 2.        ]",
           "best_fitness": 1.2764865776152863,
-          "execution_time": 24.65700078010559,
+          "execution_time": 22.145390510559082,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5194011568384995,
@@ -12961,7 +12850,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2777122029149077,
           "J_at_1000": 1.2764874880465016,
           "J_at_2000": 1.2764866490704647
@@ -12969,7 +12857,7 @@
         {
           "best_solution": "[2.50933591 0.32459495 1.77322723 2.        ]",
           "best_fitness": 1.2865559594986749,
-          "execution_time": 26.737487316131592,
+          "execution_time": 21.93677258491516,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3732126426474593,
@@ -13088,7 +12976,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2867770627817172,
           "J_at_1000": 1.2865584552342368,
           "J_at_2000": 1.2865560570559182
@@ -13096,7 +12983,7 @@
         {
           "best_solution": "[2.5976996  0.34830684 1.79274192 2.        ]",
           "best_fitness": 1.253913818162456,
-          "execution_time": 29.28472590446472,
+          "execution_time": 22.26359724998474,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4382738530660144,
@@ -13215,7 +13102,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2540557436319058,
           "J_at_1000": 1.253915813973639,
           "J_at_2000": 1.2539138216102308
@@ -13223,7 +13109,7 @@
         {
           "best_solution": "[2.49099487 0.30335643 2.007122   2.        ]",
           "best_fitness": 1.2596519676608542,
-          "execution_time": 26.10318350791931,
+          "execution_time": 23.09814763069153,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4571583387704985,
@@ -13342,7 +13228,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.26005336619357,
           "J_at_1000": 1.259653719449782,
           "J_at_2000": 1.2596519870862288
@@ -13350,7 +13235,7 @@
         {
           "best_solution": "[2.49451997 0.32491522 1.8619945  2.        ]",
           "best_fitness": 1.3531586550071337,
-          "execution_time": 24.762526273727417,
+          "execution_time": 22.105503797531128,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4818962020693394,
@@ -13469,7 +13354,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3533327031321853,
           "J_at_1000": 1.3531650317681325,
           "J_at_2000": 1.353158664380978
@@ -13477,7 +13361,7 @@
         {
           "best_solution": "[2.28320689 2.         2.02807926 2.        ]",
           "best_fitness": 1.4221041420737366,
-          "execution_time": 28.009499549865723,
+          "execution_time": 22.153194665908813,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4564292670460295,
@@ -13596,7 +13480,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.4221045572440372,
           "J_at_1000": 1.4221042631317526,
           "J_at_2000": 1.4221041421994907
@@ -13604,7 +13487,7 @@
         {
           "best_solution": "[2.57346463 0.32823013 1.81963602 2.        ]",
           "best_fitness": 1.2387038801488848,
-          "execution_time": 25.6471848487854,
+          "execution_time": 22.532490015029907,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4416482170306544,
@@ -13723,7 +13606,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2391840971213304,
           "J_at_1000": 1.238738384964567,
           "J_at_2000": 1.2387038979677052
@@ -13731,7 +13613,7 @@
         {
           "best_solution": "[2.53164765 1.98237984 1.95366987 2.        ]",
           "best_fitness": 1.325237923943739,
-          "execution_time": 24.929040670394897,
+          "execution_time": 22.000667333602905,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5043444216047004,
@@ -13850,7 +13732,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.325858347982333,
           "J_at_1000": 1.3252468310875285,
           "J_at_2000": 1.3252382563105276
@@ -13858,7 +13739,7 @@
         {
           "best_solution": "[2.53005359 0.34412829 1.88399638 2.        ]",
           "best_fitness": 1.288825837933938,
-          "execution_time": 24.32658100128174,
+          "execution_time": 21.975935459136963,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3971103707517805,
@@ -13977,7 +13858,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2888567019990091,
           "J_at_1000": 1.2888265624452397,
           "J_at_2000": 1.2888258458063346
@@ -13985,7 +13865,7 @@
         {
           "best_solution": "[2.44138594 0.34698651 1.92140214 2.        ]",
           "best_fitness": 1.2827489419584501,
-          "execution_time": 24.407679319381714,
+          "execution_time": 22.06256127357483,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5021615633817342,
@@ -14104,7 +13984,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2831064195244586,
           "J_at_1000": 1.282749396098903,
           "J_at_2000": 1.2827489420130829
@@ -14117,11 +13996,10 @@
       "best_fitness_median": 1.2796229081949937,
       "best_fitness_q25": 1.2553526154344992,
       "best_fitness_q75": 1.2882601239284168,
-      "execution_time_mean": 25.132463574409485,
-      "execution_time_std": 0.785976056730826,
+      "execution_time_mean": 22.15106854438782,
+      "execution_time_std": 0.1124455569980376,
       "feasible_rate": 100.0,
       "acceptable_rate": 100.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 1.2858352110500317,
       "median_J_at_1000": 1.2812212969016261,
       "median_J_at_2000": 1.2798419975219564,
@@ -14129,7 +14007,7 @@
         {
           "best_solution": "[2.54689446 0.32425684 1.89056301 2.        ]",
           "best_fitness": 1.2764947553291635,
-          "execution_time": 26.689234733581543,
+          "execution_time": 22.273010730743408,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5194011568384995,
@@ -14248,7 +14126,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2845751839114425,
           "J_at_1000": 1.2789205585627466,
           "J_at_2000": 1.2765590293956133
@@ -14256,7 +14133,7 @@
         {
           "best_solution": "[2.50812197 0.32418942 1.77238529 2.        ]",
           "best_fitness": 1.2865581265422008,
-          "execution_time": 25.1438946723938,
+          "execution_time": 22.240914344787598,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3732126426474593,
@@ -14375,7 +14252,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2870952381886207,
           "J_at_1000": 1.2870952381886207,
           "J_at_2000": 1.2869540097330232
@@ -14383,7 +14259,7 @@
         {
           "best_solution": "[2.59415801 0.34707454 1.79228236 2.        ]",
           "best_fitness": 1.2539178400856628,
-          "execution_time": 25.169462203979492,
+          "execution_time": 22.14539074897766,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4382738530660144,
@@ -14502,7 +14378,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2566151258070983,
           "J_at_1000": 1.2543971270369274,
           "J_at_2000": 1.2542132156814279
@@ -14510,7 +14385,7 @@
         {
           "best_solution": "[2.48717861 0.3039079  2.00524215 2.        ]",
           "best_fitness": 1.2596569414810088,
-          "execution_time": 25.172019720077515,
+          "execution_time": 22.19193458557129,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4571583387704985,
@@ -14629,7 +14504,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2685958124036483,
           "J_at_1000": 1.2652444071821178,
           "J_at_2000": 1.260082853460216
@@ -14637,7 +14511,7 @@
         {
           "best_solution": "[2.49436571 0.32514672 1.86607743 2.        ]",
           "best_fitness": 1.3531598162322567,
-          "execution_time": 24.41542673110962,
+          "execution_time": 21.905638694763184,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4818962020693394,
@@ -14756,7 +14630,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.357790505391036,
           "J_at_1000": 1.3559115057000655,
           "J_at_2000": 1.3537445519877762
@@ -14764,7 +14637,7 @@
         {
           "best_solution": "[2.42570469 0.3102014  1.92953389 2.        ]",
           "best_fitness": 1.3174667508928624,
-          "execution_time": 25.97287607192993,
+          "execution_time": 22.19828748703003,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4564292670460295,
@@ -14883,7 +14756,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3238382205638966,
           "J_at_1000": 1.3210716574354269,
           "J_at_2000": 1.3177124645843186
@@ -14891,7 +14763,7 @@
         {
           "best_solution": "[2.5715919  0.32820386 1.82377112 2.        ]",
           "best_fitness": 1.2387056497671127,
-          "execution_time": 25.316317558288574,
+          "execution_time": 22.26404118537903,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4416482170306544,
@@ -15010,7 +14882,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2453568084906799,
           "J_at_1000": 1.2415874141770875,
           "J_at_2000": 1.2388835257893984
@@ -15018,7 +14889,7 @@
         {
           "best_solution": "[2.62169424 0.35042403 1.91635136 2.        ]",
           "best_fitness": 1.246471133896515,
-          "execution_time": 24.49884057044983,
+          "execution_time": 22.012297868728638,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5043444216047004,
@@ -15137,7 +15008,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2631884131038074,
           "J_at_1000": 1.2540151002394382,
           "J_at_2000": 1.2469565646792915
@@ -15145,7 +15015,7 @@
         {
           "best_solution": "[2.53160177 0.34491584 1.88505972 2.        ]",
           "best_fitness": 1.288827456390489,
-          "execution_time": 25.25629711151123,
+          "execution_time": 22.198940992355347,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3971103707517805,
@@ -15264,7 +15134,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2911091041280325,
           "J_at_1000": 1.2894041483813825,
           "J_at_2000": 1.2890318313845084
@@ -15272,7 +15141,7 @@
         {
           "best_solution": "[2.4377264  0.34577713 1.9251408  2.        ]",
           "best_fitness": 1.2827510610608237,
-          "execution_time": 23.690266370773315,
+          "execution_time": 22.080228805541992,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5021615633817342,
@@ -15391,7 +15260,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2891530303134746,
           "J_at_1000": 1.2835220352405057,
           "J_at_2000": 1.2831249656482997
@@ -15404,11 +15272,10 @@
       "best_fitness_median": 1.313999462758637,
       "best_fitness_q25": 1.2833969782282746,
       "best_fitness_q75": 1.3465285000693985,
-      "execution_time_mean": 24.876944923400877,
-      "execution_time_std": 0.8525251322375841,
+      "execution_time_mean": 22.07843723297119,
+      "execution_time_std": 0.1632620083703408,
       "feasible_rate": 100.0,
       "acceptable_rate": 100.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 1.3167053346651256,
       "median_J_at_1000": 1.3140546614944069,
       "median_J_at_2000": 1.3139994636523014,
@@ -15416,7 +15283,7 @@
         {
           "best_solution": "[2.64567386 0.35875208 1.70689746 2.        ]",
           "best_fitness": 1.2821387413585044,
-          "execution_time": 25.15125012397766,
+          "execution_time": 22.230112314224243,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5194011568384995,
@@ -15535,7 +15402,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2826420038818134,
           "J_at_1000": 1.2821450460887933,
           "J_at_2000": 1.2821387415179448
@@ -15543,7 +15409,7 @@
         {
           "best_solution": "[2.55586998 0.32728954 1.71579931 2.        ]",
           "best_fitness": 1.2871716888375848,
-          "execution_time": 24.647653102874756,
+          "execution_time": 22.14495611190796,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3732126426474593,
@@ -15662,7 +15528,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.287516018754496,
           "J_at_1000": 1.2871814510786406,
           "J_at_2000": 1.2871716889098865
@@ -15670,7 +15535,7 @@
         {
           "best_solution": "[2.57761864 0.34482846 1.79905214 2.        ]",
           "best_fitness": 1.2539841256343924,
-          "execution_time": 23.98317265510559,
+          "execution_time": 21.845736980438232,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4382738530660144,
@@ -15789,7 +15654,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2541100619956147,
           "J_at_1000": 1.2539849191727006,
           "J_at_2000": 1.253984125692364
@@ -15797,7 +15661,7 @@
         {
           "best_solution": "[2.52921984 0.31929024 1.92062787 2.        ]",
           "best_fitness": 1.2607017588424594,
-          "execution_time": 23.715059995651245,
+          "execution_time": 22.11215329170227,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4571583387704985,
@@ -15916,7 +15780,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2610688005164536,
           "J_at_1000": 1.2607339856622322,
           "J_at_2000": 1.2607017588443834
@@ -15924,7 +15787,7 @@
         {
           "best_solution": "[2.5251849  0.33367918 1.80390375 2.        ]",
           "best_fitness": 1.3535051598676728,
-          "execution_time": 24.560568809509277,
+          "execution_time": 22.229074954986572,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4818962020693394,
@@ -16043,7 +15906,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.365272821838033,
           "J_at_1000": 1.3535322135544166,
           "J_at_2000": 1.3535051599511567
@@ -16051,7 +15913,7 @@
         {
           "best_solution": "[2.51198015 0.33111769 1.84046956 2.        ]",
           "best_fitness": 1.3191468344301556,
-          "execution_time": 26.4422025680542,
+          "execution_time": 21.809476613998413,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4564292670460295,
@@ -16170,7 +16032,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3242122111922945,
           "J_at_1000": 1.3192548399804993,
           "J_at_2000": 1.3191468359265086
@@ -16178,7 +16039,7 @@
         {
           "best_solution": "[5.         0.71429121 1.65556924 2.        ]",
           "best_fitness": 1.3774883254219872,
-          "execution_time": 25.603549242019653,
+          "execution_time": 22.111299753189087,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4416482170306544,
@@ -16297,7 +16158,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3780008540973976,
           "J_at_1000": 1.377493908808103,
           "J_at_2000": 1.377488333246213
@@ -16305,7 +16165,7 @@
         {
           "best_solution": "[2.55210143 2.         1.92053563 2.        ]",
           "best_fitness": 1.325598520674576,
-          "execution_time": 23.90772557258606,
+          "execution_time": 22.28307604789734,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5043444216047004,
@@ -16424,7 +16284,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3272618698985799,
           "J_at_1000": 1.3256180527931454,
           "J_at_2000": 1.3255985208614798
@@ -16432,7 +16291,7 @@
         {
           "best_solution": "[2.69989633 0.42456986 1.61035398 2.        ]",
           "best_fitness": 1.3088520910871186,
-          "execution_time": 25.863651514053345,
+          "execution_time": 21.874587297439575,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3971103707517805,
@@ -16551,7 +16410,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3091984581379568,
           "J_at_1000": 1.3088544830083146,
           "J_at_2000": 1.308852091378094
@@ -16559,7 +16417,7 @@
         {
           "best_solution": "[2.38360228 2.         1.91800903 2.        ]",
           "best_fitness": 1.4244987885550762,
-          "execution_time": 24.894615650177002,
+          "execution_time": 22.143898963928223,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5021615633817342,
@@ -16678,7 +16536,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.4264484946204983,
           "J_at_1000": 1.4257751518365875,
           "J_at_2000": 1.424498789143931
@@ -16691,11 +16548,10 @@
       "best_fitness_median": 1.2947754655989976,
       "best_fitness_q25": 1.2842120895358091,
       "best_fitness_q75": 1.3468910516063342,
-      "execution_time_mean": 23.778319716453552,
-      "execution_time_std": 0.9119930323942624,
+      "execution_time_mean": 22.0571542263031,
+      "execution_time_std": 0.13220213796978642,
       "feasible_rate": 100.0,
       "acceptable_rate": 100.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 1.3469005092995294,
       "median_J_at_1000": 1.3253438605339203,
       "median_J_at_2000": 1.3060633339571013,
@@ -16703,7 +16559,7 @@
         {
           "best_solution": "[2.78535211 0.35612102 1.73201871 1.9945461 ]",
           "best_fitness": 1.2836502544121875,
-          "execution_time": 26.29133367538452,
+          "execution_time": 22.115619897842407,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5194011568384995,
@@ -16822,7 +16678,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.36065989116581,
           "J_at_1000": 1.3250646839026656,
           "J_at_2000": 1.2977842618624011
@@ -16830,7 +16685,7 @@
         {
           "best_solution": "[2.64066737 0.33454201 1.70802238 2.        ]",
           "best_fitness": 1.2885536086064886,
-          "execution_time": 24.41429352760315,
+          "execution_time": 21.870429754257202,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3732126426474593,
@@ -16949,7 +16804,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3132139744511373,
           "J_at_1000": 1.2996517437825397,
           "J_at_2000": 1.2934599385608463
@@ -16957,7 +16811,7 @@
         {
           "best_solution": "[2.68943615 0.35451512 1.61615926 2.        ]",
           "best_fitness": 1.2572963899794913,
-          "execution_time": 23.388577938079834,
+          "execution_time": 22.148658275604248,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4382738530660144,
@@ -17076,7 +16930,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2913553838611447,
           "J_at_1000": 1.2613916566029122,
           "J_at_2000": 1.2582054954960582
@@ -17084,7 +16937,7 @@
         {
           "best_solution": "[2.26590007 0.28314419 2.34823742 2.        ]",
           "best_fitness": 1.2735466884507347,
-          "execution_time": 23.6942880153656,
+          "execution_time": 21.954219818115234,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4571583387704985,
@@ -17203,7 +17056,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.290797218660038,
           "J_at_1000": 1.2907187515214535,
           "J_at_2000": 1.285678033379604
@@ -17211,7 +17063,7 @@
         {
           "best_solution": "[2.58609953 0.33790771 1.83115031 2.        ]",
           "best_fitness": 1.3541008729199273,
-          "execution_time": 23.661107063293457,
+          "execution_time": 21.875300645828247,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4818962020693394,
@@ -17330,7 +17182,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.367161939175923,
           "J_at_1000": 1.3598791590089336,
           "J_at_2000": 1.35714947729092
@@ -17338,7 +17189,7 @@
         {
           "best_solution": "[2.34029224 2.         2.02998954 2.        ]",
           "best_fitness": 1.422443084877409,
-          "execution_time": 23.3628830909729,
+          "execution_time": 22.16564702987671,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4564292670460295,
@@ -17457,7 +17308,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.4338073274928116,
           "J_at_1000": 1.4332958483075866,
           "J_at_2000": 1.4271144260631707
@@ -17465,7 +17315,7 @@
         {
           "best_solution": "[4.78302249 1.87591879 1.70801822 2.        ]",
           "best_fitness": 1.4394822535858474,
-          "execution_time": 23.39716672897339,
+          "execution_time": 22.230830192565918,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4416482170306544,
@@ -17584,7 +17434,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.44122692308959,
           "J_at_1000": 1.441102338323922,
           "J_at_2000": 1.4408818113194541
@@ -17592,7 +17441,7 @@
         {
           "best_solution": "[2.53152322 1.98530042 1.94458013 2.        ]",
           "best_fitness": 1.3252615876655547,
-          "execution_time": 22.990668058395386,
+          "execution_time": 21.903894901275635,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5043444216047004,
@@ -17711,7 +17560,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.333141127433249,
           "J_at_1000": 1.3256230371651752,
           "J_at_2000": 1.32547337444915
@@ -17719,7 +17567,7 @@
         {
           "best_solution": "[2.69344672 0.34079015 1.58816407 1.96480266]",
           "best_fitness": 1.3009973225915066,
-          "execution_time": 23.212233066558838,
+          "execution_time": 22.1688711643219,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3971103707517805,
@@ -17838,7 +17686,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.372136511977824,
           "J_at_1000": 1.3449015904007418,
           "J_at_2000": 1.3143424060518014
@@ -17846,7 +17693,7 @@
         {
           "best_solution": "[2.57620243 0.36588802 1.77154704 2.        ]",
           "best_fitness": 1.2858975949066744,
-          "execution_time": 23.370645999908447,
+          "execution_time": 22.138070583343506,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5021615633817342,
@@ -17965,7 +17812,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3269592922753641,
           "J_at_1000": 1.3074999907759655,
           "J_at_2000": 1.2915868645460042
@@ -17978,11 +17824,10 @@
       "best_fitness_median": 1.28091586060141,
       "best_fitness_q25": 1.2557508212084965,
       "best_fitness_q75": 1.2894816069683184,
-      "execution_time_mean": 43.796603846549985,
-      "execution_time_std": 15.547415742622059,
+      "execution_time_mean": 22.11886990070343,
+      "execution_time_std": 0.18211801419793788,
       "feasible_rate": 100.0,
       "acceptable_rate": 100.0,
-      "median_fe_to_target": NaN,
       "median_J_at_500": 1.3763381002425121,
       "median_J_at_1000": 1.2961483691182274,
       "median_J_at_2000": 1.285056327590357,
@@ -17990,7 +17835,7 @@
         {
           "best_solution": "[2.57587602 0.34161498 1.77386391 2.        ]",
           "best_fitness": 1.2785079571983575,
-          "execution_time": 23.35182809829712,
+          "execution_time": 21.94033908843994,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5194011568384995,
@@ -18109,7 +17954,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3982543319446477,
           "J_at_1000": 1.2920650298224678,
           "J_at_2000": 1.2848650263181498
@@ -18117,7 +17961,7 @@
         {
           "best_solution": "[2.45040781 0.31520309 1.7962653  2.        ]",
           "best_fitness": 1.2868727369499044,
-          "execution_time": 23.511032104492188,
+          "execution_time": 22.160399913787842,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3732126426474593,
@@ -18236,7 +18080,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3231339527755117,
           "J_at_1000": 1.2876955556169813,
           "J_at_2000": 1.2876955556169813
@@ -18244,7 +18087,7 @@
         {
           "best_solution": "[2.62201688 0.35173153 1.8116267  2.        ]",
           "best_fitness": 1.2540917301454175,
-          "execution_time": 23.767144918441772,
+          "execution_time": 22.168383359909058,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4382738530660144,
@@ -18363,7 +18206,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.2615210331304891,
           "J_at_1000": 1.2615210331304891,
           "J_at_2000": 1.2579712919539947
@@ -18371,7 +18213,7 @@
         {
           "best_solution": "[2.45670086 0.30762564 1.90960361 1.99616975]",
           "best_fitness": 1.260728094397733,
-          "execution_time": 28.820120096206665,
+          "execution_time": 21.868074417114258,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4571583387704985,
@@ -18490,7 +18332,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.349070512403934,
           "J_at_1000": 1.2712836829395846,
           "J_at_2000": 1.2612535184343334
@@ -18498,7 +18339,7 @@
         {
           "best_solution": "[2.38021717 0.29995787 1.93347828 1.98372738]",
           "best_fitness": 1.355977935815919,
-          "execution_time": 58.06202459335327,
+          "execution_time": 22.400850772857666,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4818962020693394,
@@ -18617,7 +18458,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.4417973476300254,
           "J_at_1000": 1.3722210094748482,
           "J_at_2000": 1.3566493403720212
@@ -18625,7 +18465,7 @@
         {
           "best_solution": "[2.45946741 0.29929118 1.93801042 2.        ]",
           "best_fitness": 1.31842743623706,
-          "execution_time": 56.30104184150696,
+          "execution_time": 22.46286153793335,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4564292670460295,
@@ -18744,7 +18584,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.4335228372686888,
           "J_at_1000": 1.417508518515798,
           "J_at_2000": 1.3226559689094761
@@ -18752,7 +18591,7 @@
         {
           "best_solution": "[2.71313496 0.35080893 1.82408745 1.98270732]",
           "best_fitness": 1.241588278605473,
-          "execution_time": 55.80594205856323,
+          "execution_time": 22.012928009033203,
           "function_evaluations": 3030,
           "convergence_history": [
             1.4416482170306544,
@@ -18871,7 +18710,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3866557928121086,
           "J_at_1000": 1.3572919071884808,
           "J_at_2000": 1.2679871713545965
@@ -18879,7 +18717,7 @@
         {
           "best_solution": "[2.59392092 0.34161108 1.94535606 2.        ]",
           "best_fitness": 1.2467247118338753,
-          "execution_time": 55.738990783691406,
+          "execution_time": 22.145650386810303,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5043444216047004,
@@ -18998,7 +18836,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.4156418663791492,
           "J_at_1000": 1.2644045479838983,
           "J_at_2000": 1.2467247118338753
@@ -19006,7 +18843,7 @@
         {
           "best_solution": "[2.58079791 0.3339287  1.78793171 2.        ]",
           "best_fitness": 1.2903512303077898,
-          "execution_time": 55.14680051803589,
+          "execution_time": 22.039053678512573,
           "function_evaluations": 3030,
           "convergence_history": [
             1.3971103707517805,
@@ -19125,7 +18962,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3450527503690113,
           "J_at_1000": 1.300231708413987,
           "J_at_2000": 1.295379819307787
@@ -19133,7 +18969,7 @@
         {
           "best_solution": "[2.44674841 0.35548192 1.98643881 2.        ]",
           "best_fitness": 1.2833237640044626,
-          "execution_time": 57.46111345291138,
+          "execution_time": 21.99015784263611,
           "function_evaluations": 3030,
           "convergence_history": [
             1.5021615633817342,
@@ -19252,7 +19088,6 @@
           ],
           "feasible": "True",
           "acceptable": "True",
-          "fe_to_target": null,
           "J_at_500": 1.3660204076729154,
           "J_at_1000": 1.3660204076729154,
           "J_at_2000": 1.2852476288625645
