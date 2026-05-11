@@ -1,4 +1,5 @@
 ﻿"""
+simulation.py
 Модуль с единой функцией моделирования двигателя постоянного тока
 и расчета метрик переходного процесса.
 Используется в problems.py и plot_step_responses.py для согласованности.
@@ -48,25 +49,14 @@ def simulate_dc_motor_pid(params, t_end=5, n_points=500):
     t, y = ctrl.step_response(T, T=t)
     return t, y
 
-
 def compute_step_metrics(t, y):
-    """
-    Вычисляет метрики переходного процесса по отклику y(t).
-    
-    Returns:
-        dict: overshoot (%), rise_time (с), settling_time (с), steady_state_error (абс.)
-    """
     if len(y) == 0:
-        return {'overshoot': np.inf, 'rise_time': np.inf, 
+        return {'overshoot': np.inf, 'rise_time': np.inf,
                 'settling_time': np.inf, 'steady_state_error': np.inf}
-
-    # Установившееся значение – среднее последних 10% точек
-    n = len(y)
-    y_ss = np.mean(y[int(0.9*n):])
-    if y_ss == 0:
-        y_ss = 1e-8
-
-    # Перерегулирование
+    
+    y_ss = y[-1]               # Установившееся значение – последняя точка
+    # y_ss = 1.0               # Альтернатива: явное задание для step-отклика
+    
     y_max = np.max(y)
     overshoot = max(0, (y_max - y_ss) / y_ss * 100)
 
